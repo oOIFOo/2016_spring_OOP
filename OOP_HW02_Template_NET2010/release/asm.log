@@ -1,0 +1,175 @@
+﻿Build started 2016/4/24 下午 08:46:47.
+     1>Project "C:\Users\USER\Desktop\OOP_HW02_Template_NET2010\asm.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\visual2013\VC\bin\CL.exe /c /I.\Irvine /I.\inc /Zi /nologo /W3 /WX- /O2 /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt 00_StudentWork\00_SimpleInteractiveSystem\myBasicTools.cpp 00_StudentWork\00_SimpleInteractiveSystem\mySystemApp.cpp 00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_HandleEvents.cpp 00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp 00_StudentWork\00_SimpleInteractiveSystem\mySystem_ColorPalette.cpp 00_StudentWork\00_SimpleInteractiveSystem\mySystem_GalaxySystem.cpp 00_StudentWork\00_SimpleInteractiveSystem\mySystem_MonteCarlo.cpp 00_StudentWork\00_SimpleInteractiveSystem\mySystem_SimpleFileEditor.cpp 00_StudentWork\00_SimpleInteractiveSystem\mySystem_SimplePainter.cpp 00_StudentWork\00_SimpleInteractiveSystem\mySystem_SortingVisualization.cpp boardGameApp\boardGameApp.cpp boardGame\BG_grid2D.cpp boardGame\boardGame.cpp fileReader\fileReader.cpp freeCanvas2D\freeCanvas2D.cpp imageReader\imageReader.cpp main.cpp openGLapp\openGLapp.cpp openGLapp\openGLapp.events.cpp openGLapp\openGLapp_draw.cpp openGLapp\openGLapp_init.cpp openGLapp\openGLapp_update.cpp openGLbasic\camera.cpp openGLbasic\opengl_stuff.cpp painter\painter.cpp painter\painter_draw.cpp painting_system\paintingSystem.cpp painting_system\paintingSystemApp.cpp painting_system\paintingSystemApp_HandleEvents.cpp painting_system\paintingSystemApp_draw.cpp primitives\basic_tools.cpp primitives\grid2D.cpp primitives\vector3d.cpp textureManager\texture.cpp textureManager\textureManager.cpp textureManager\textureManager_read.cpp
+         myBasicTools.cpp
+         mySystemApp.cpp
+     1>C:\Users\USER\Desktop\OOP_HW02_Template_NET2010\inc\GL/gl.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         mySystemApp_HandleEvents.cpp
+     1>C:\Users\USER\Desktop\OOP_HW02_Template_NET2010\inc\GL/gl.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_HandleEvents.cpp(121): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_HandleEvents.cpp(150): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_HandleEvents.cpp(160): warning C4305: 'argument' : truncation from 'double' to 'float'
+         mySystemApp_draw.cpp
+     1>C:\Users\USER\Desktop\OOP_HW02_Template_NET2010\inc\GL/gl.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(121): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(137): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(154): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(155): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(164): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(183): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(186): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(188): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(205): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(225): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(235): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(235): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(237): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(237): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(250): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(269): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(272): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(275): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(278): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(284): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(261): warning C4101: 'b' : unreferenced local variable
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(261): warning C4101: 'g' : unreferenced local variable
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(261): warning C4101: 'r' : unreferenced local variable
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(314): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(314): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(316): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(318): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(338): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(341): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(342): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(343): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(344): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(353): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(355): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(356): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(357): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(358): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(376): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(390): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+         mySystem_ColorPalette.cpp
+     1>C:\Users\USER\Desktop\OOP_HW02_Template_NET2010\inc\GL/gl.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystem_ColorPalette.cpp(70): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystem_ColorPalette.cpp(71): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystem_ColorPalette.cpp(72): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         mySystem_GalaxySystem.cpp
+     1>C:\Users\USER\Desktop\OOP_HW02_Template_NET2010\inc\GL/gl.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystem_GalaxySystem.cpp(271): warning C4258: 'i' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 00_StudentWork\00_SimpleInteractiveSystem\mySystem_GalaxySystem.cpp(263) : definition of 'i' ignored
+                 00_StudentWork\00_SimpleInteractiveSystem\mySystem_GalaxySystem.cpp(240) : definition of 'i' used
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystem_GalaxySystem.cpp(272): warning C4258: 'i' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 00_StudentWork\00_SimpleInteractiveSystem\mySystem_GalaxySystem.cpp(263) : definition of 'i' ignored
+                 00_StudentWork\00_SimpleInteractiveSystem\mySystem_GalaxySystem.cpp(240) : definition of 'i' used
+         mySystem_MonteCarlo.cpp
+     1>C:\Users\USER\Desktop\OOP_HW02_Template_NET2010\inc\GL/gl.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         mySystem_SimpleFileEditor.cpp
+     1>C:\Users\USER\Desktop\OOP_HW02_Template_NET2010\inc\GL/gl.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystem_SimpleFileEditor.cpp(68): warning C4018: '<' : signed/unsigned mismatch
+         mySystem_SimplePainter.cpp
+     1>C:\Users\USER\Desktop\OOP_HW02_Template_NET2010\inc\GL/gl.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystem_SimplePainter.cpp(53): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystem_SimplePainter.cpp(167): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystem_SimplePainter.cpp(167): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+         mySystem_SortingVisualization.cpp
+     1>C:\Users\USER\Desktop\OOP_HW02_Template_NET2010\inc\GL/gl.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystem_SortingVisualization.cpp(32): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+         boardGameApp.cpp
+     1>C:\Users\USER\Desktop\OOP_HW02_Template_NET2010\inc\GL/gl.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         BG_grid2D.cpp
+         boardGame.cpp
+     1>C:\Users\USER\Desktop\OOP_HW02_Template_NET2010\inc\GL/gl.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         fileReader.cpp
+         freeCanvas2D.cpp
+     1>C:\Users\USER\Desktop\OOP_HW02_Template_NET2010\inc\GL/gl.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         imageReader.cpp
+     1>C:\Users\USER\Desktop\OOP_HW02_Template_NET2010\inc\GL/gl.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         main.cpp
+     1>C:\Users\USER\Desktop\OOP_HW02_Template_NET2010\inc\GL/gl.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         openGLapp.cpp
+     1>C:\Users\USER\Desktop\OOP_HW02_Template_NET2010\inc\GL/gl.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         openGLapp.events.cpp
+     1>C:\Users\USER\Desktop\OOP_HW02_Template_NET2010\inc\GL/gl.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         openGLapp_draw.cpp
+     1>C:\Users\USER\Desktop\OOP_HW02_Template_NET2010\inc\GL/gl.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         Compiling...
+         openGLapp_init.cpp
+     1>C:\Users\USER\Desktop\OOP_HW02_Template_NET2010\inc\GL/gl.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         openGLapp_update.cpp
+     1>C:\Users\USER\Desktop\OOP_HW02_Template_NET2010\inc\GL/gl.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         camera.cpp
+     1>C:\Users\USER\Desktop\OOP_HW02_Template_NET2010\inc\GL/gl.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>openGLbasic\camera.cpp(57): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         opengl_stuff.cpp
+     1>C:\Users\USER\Desktop\OOP_HW02_Template_NET2010\inc\GL/gl.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         painter.cpp
+     1>C:\Users\USER\Desktop\OOP_HW02_Template_NET2010\inc\GL/gl.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         painter_draw.cpp
+     1>C:\Users\USER\Desktop\OOP_HW02_Template_NET2010\inc\GL/gl.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         paintingSystem.cpp
+     1>C:\Users\USER\Desktop\OOP_HW02_Template_NET2010\inc\GL/gl.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         paintingSystemApp.cpp
+     1>C:\Users\USER\Desktop\OOP_HW02_Template_NET2010\inc\GL/gl.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         paintingSystemApp_HandleEvents.cpp
+     1>C:\Users\USER\Desktop\OOP_HW02_Template_NET2010\inc\GL/gl.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         paintingSystemApp_draw.cpp
+     1>C:\Users\USER\Desktop\OOP_HW02_Template_NET2010\inc\GL/gl.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         basic_tools.cpp
+         grid2D.cpp
+         vector3d.cpp
+         texture.cpp
+     1>C:\Users\USER\Desktop\OOP_HW02_Template_NET2010\inc\GL/gl.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         textureManager.cpp
+     1>C:\Users\USER\Desktop\OOP_HW02_Template_NET2010\inc\GL/gl.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         textureManager_read.cpp
+     1>C:\Users\USER\Desktop\OOP_HW02_Template_NET2010\inc\GL/gl.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1193,5): warning MSB8012: TargetPath(C:\Users\USER\Desktop\OOP_HW02_Template_NET2010\Release\SelfMotivatedSystem.exe) does not match the Linker's OutputFile property value (C:\Users\USER\Desktop\OOP_HW02_Template_NET2010\bin\Release\SelfMotivatedSystem.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         D:\visual2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\bin\Release\SelfMotivatedSystem.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:.\Irvine /LIBPATH:.\lib /LIBPATH:.\lib\IL freeglut.lib opengl32.lib glew32.lib glew32s.lib ILUT.lib devIL.lib ILU.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\USER\Desktop\OOP_HW02_Template_NET2010\Release\SelfMotivatedSystem.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"C:\Users\USER\Desktop\OOP_HW02_Template_NET2010\Release\SelfMotivatedSystem.lib" /MACHINE:X86 /SAFESEH Release\myBasicTools.obj
+         Release\mySystem_ColorPalette.obj
+         Release\mySystem_GalaxySystem.obj
+         Release\mySystem_MonteCarlo.obj
+         Release\mySystem_SimpleFileEditor.obj
+         Release\mySystem_SimplePainter.obj
+         Release\mySystem_SortingVisualization.obj
+         Release\basic_app.obj
+         Release\main.obj
+         Release\mySystemApp.obj
+         Release\mySystemApp_draw.obj
+         Release\mySystemApp_HandleEvents.obj
+         Release\camera.obj
+         Release\opengl_stuff.obj
+         Release\painter_draw.obj
+         Release\openGLapp.obj
+         Release\openGLapp.events.obj
+         Release\openGLapp_draw.obj
+         Release\openGLapp_init.obj
+         Release\openGLapp_update.obj
+         Release\basic_tools.obj
+         Release\grid2D.obj
+         Release\provider.obj
+         Release\vector3d.obj
+         Release\fileReader.obj
+         Release\imageReader.obj
+         Release\BG_grid2D.obj
+         Release\boardGame.obj
+         Release\painter.obj
+         Release\boardGameApp.obj
+         Release\freeCanvas2D.obj
+         Release\lattice_manager.obj
+         Release\paintingSystem.obj
+         Release\paintingSystemApp.obj
+         Release\paintingSystemApp_draw.obj
+         Release\paintingSystemApp_HandleEvents.obj
+         Release\texture.obj
+         Release\textureManager.obj
+         Release\textureManager_read.obj
+     1>LINK : fatal error LNK1104: cannot open file '.\bin\Release\SelfMotivatedSystem.exe'
+     1>Done Building Project "C:\Users\USER\Desktop\OOP_HW02_Template_NET2010\asm.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:17.64

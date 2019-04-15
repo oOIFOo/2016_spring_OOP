@@ -1,0 +1,172 @@
+﻿已經開始建置於 2016/3/21 下午 08:33:24。
+     1>節點 2 (build 目標) 上的專案 "C:\Users\USER\Desktop\OOP_HW01_Template_NET2010\asm.vcxproj"。
+     1>InitializeBuildStatus:
+         由於指定了 "AlwaysCreate"，因此正在建立 "Release\SimpleOpenGLFramework.unsuccessfulbuild"。
+       ClCompile:
+         d:\新增資料夾\VC\bin\CL.exe /c /I.\Irvine /I.\inc /Zi /nologo /W3 /WX- /O2 /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt basic_app.cpp main.cpp 00_StudentWork\00_SimpleInteractiveSystem\mySystem_MonteCarlo.cpp 00_StudentWork\00_SimpleInteractiveSystem\mySystem_QuadraticFunction.cpp 00_StudentWork\00_SimpleInteractiveSystem\mySystem_StudentRecordManager.cpp 00_StudentWork\00_SimpleInteractiveSystem\mySystemApp.cpp 00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp 00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_HandleEvents.cpp openGLbasic\camera.cpp openGLbasic\opengl_stuff.cpp painter\painter_draw.cpp openGLapp\openGLapp.cpp openGLapp\openGLapp.events.cpp openGLapp\openGLapp_draw.cpp openGLapp\openGLapp_init.cpp openGLapp\openGLapp_update.cpp primitives\basic_tools.cpp primitives\grid2D.cpp primitives\provider.cpp primitives\vector3d.cpp fileReader\fileReader.cpp imageReader\imageReader.cpp boardGame\BG_grid2D.cpp boardGame\boardGame.cpp painter\painter.cpp boardGameApp\boardGameApp.cpp freeCanvas2D\freeCanvas2D.cpp spatial_partition_structures\lattice_manager.cpp painting_system\paintingSystem.cpp painting_system\paintingSystemApp.cpp painting_system\paintingSystemApp_draw.cpp painting_system\paintingSystemApp_HandleEvents.cpp textureManager\texture.cpp textureManager\textureManager.cpp textureManager\textureManager_read.cpp
+         basic_app.cpp
+         main.cpp
+     1>C:\Users\USER\Desktop\OOP_HW01_Template_NET2010\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>C:\Users\USER\Desktop\OOP_HW01_Template_NET2010\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+         mySystem_MonteCarlo.cpp
+     1>C:\Users\USER\Desktop\OOP_HW01_Template_NET2010\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>C:\Users\USER\Desktop\OOP_HW01_Template_NET2010\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystem_MonteCarlo.cpp(52): warning C4244: '引數' : 將 'time_t' 轉換為 'unsigned int'，由於型別不同，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystem_MonteCarlo.cpp(63): warning C4244: '=' : 將 'int' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystem_MonteCarlo.cpp(94): warning C4800: 'float' : 強制將 bool 的值定為 'true' 或 'false' (效能警告)
+         mySystem_QuadraticFunction.cpp
+     1>C:\Users\USER\Desktop\OOP_HW01_Template_NET2010\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>C:\Users\USER\Desktop\OOP_HW01_Template_NET2010\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystem_QuadraticFunction.cpp(62): warning C4244: '=' : 將 'const double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+         mySystem_StudentRecordManager.cpp
+     1>C:\Users\USER\Desktop\OOP_HW01_Template_NET2010\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>C:\Users\USER\Desktop\OOP_HW01_Template_NET2010\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystem_StudentRecordManager.cpp(49): warning C4244: '=' : 將 'int' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystem_StudentRecordManager.cpp(88): warning C4804: '<=' : 作業中不安全的使用型別 'bool'
+         mySystemApp.cpp
+     1>C:\Users\USER\Desktop\OOP_HW01_Template_NET2010\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>C:\Users\USER\Desktop\OOP_HW01_Template_NET2010\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+         mySystemApp_draw.cpp
+     1>C:\Users\USER\Desktop\OOP_HW01_Template_NET2010\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>C:\Users\USER\Desktop\OOP_HW01_Template_NET2010\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(78): warning C4244: '正在初始化' : 將 'double' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(86): warning C4244: '正在初始化' : 將 'double' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(103): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的型別轉換為較小的型別，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(105): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的型別轉換為較小的型別，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(105): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的型別轉換為較小的型別，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(105): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的型別轉換為較小的型別，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(114): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的型別轉換為較小的型別，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(114): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的型別轉換為較小的型別，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(114): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的型別轉換為較小的型別，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(123): warning C4244: '=' : 將 'double' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(124): warning C4244: '=' : 將 'double' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(133): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的型別轉換為較小的型別，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(133): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的型別轉換為較小的型別，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(133): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的型別轉換為較小的型別，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(142): warning C4244: '=' : 將 'double' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(143): warning C4244: '=' : 將 'double' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(155): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於型別不同，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(155): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的型別轉換為較小的型別，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(155): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的型別轉換為較小的型別，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(157): warning C4244: '=' : 將 'int' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(163): warning C4244: '=' : 將 'int' 轉換為 'float'，由於型別不同，可能導致資料遺失
+         mySystemApp_HandleEvents.cpp
+     1>C:\Users\USER\Desktop\OOP_HW01_Template_NET2010\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>C:\Users\USER\Desktop\OOP_HW01_Template_NET2010\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+         camera.cpp
+     1>C:\Users\USER\Desktop\OOP_HW01_Template_NET2010\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>C:\Users\USER\Desktop\OOP_HW01_Template_NET2010\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+         opengl_stuff.cpp
+     1>C:\Users\USER\Desktop\OOP_HW01_Template_NET2010\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>C:\Users\USER\Desktop\OOP_HW01_Template_NET2010\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+         painter_draw.cpp
+     1>C:\Users\USER\Desktop\OOP_HW01_Template_NET2010\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>C:\Users\USER\Desktop\OOP_HW01_Template_NET2010\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+         openGLapp.cpp
+     1>C:\Users\USER\Desktop\OOP_HW01_Template_NET2010\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>C:\Users\USER\Desktop\OOP_HW01_Template_NET2010\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+         openGLapp.events.cpp
+     1>C:\Users\USER\Desktop\OOP_HW01_Template_NET2010\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>C:\Users\USER\Desktop\OOP_HW01_Template_NET2010\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+         openGLapp_draw.cpp
+     1>C:\Users\USER\Desktop\OOP_HW01_Template_NET2010\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>C:\Users\USER\Desktop\OOP_HW01_Template_NET2010\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+         openGLapp_init.cpp
+     1>C:\Users\USER\Desktop\OOP_HW01_Template_NET2010\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>C:\Users\USER\Desktop\OOP_HW01_Template_NET2010\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+         openGLapp_update.cpp
+     1>C:\Users\USER\Desktop\OOP_HW01_Template_NET2010\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>C:\Users\USER\Desktop\OOP_HW01_Template_NET2010\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+         basic_tools.cpp
+         grid2D.cpp
+         provider.cpp
+         vector3d.cpp
+         正在編譯...
+         fileReader.cpp
+         imageReader.cpp
+     1>C:\Users\USER\Desktop\OOP_HW01_Template_NET2010\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>C:\Users\USER\Desktop\OOP_HW01_Template_NET2010\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>C:\Users\USER\Desktop\OOP_HW01_Template_NET2010\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+         BG_grid2D.cpp
+         boardGame.cpp
+     1>C:\Users\USER\Desktop\OOP_HW01_Template_NET2010\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>C:\Users\USER\Desktop\OOP_HW01_Template_NET2010\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+         painter.cpp
+     1>C:\Users\USER\Desktop\OOP_HW01_Template_NET2010\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>C:\Users\USER\Desktop\OOP_HW01_Template_NET2010\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+         boardGameApp.cpp
+     1>C:\Users\USER\Desktop\OOP_HW01_Template_NET2010\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>C:\Users\USER\Desktop\OOP_HW01_Template_NET2010\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+         freeCanvas2D.cpp
+     1>C:\Users\USER\Desktop\OOP_HW01_Template_NET2010\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>C:\Users\USER\Desktop\OOP_HW01_Template_NET2010\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+         lattice_manager.cpp
+         paintingSystem.cpp
+     1>C:\Users\USER\Desktop\OOP_HW01_Template_NET2010\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>C:\Users\USER\Desktop\OOP_HW01_Template_NET2010\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+         paintingSystemApp.cpp
+     1>C:\Users\USER\Desktop\OOP_HW01_Template_NET2010\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>C:\Users\USER\Desktop\OOP_HW01_Template_NET2010\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+         paintingSystemApp_draw.cpp
+     1>C:\Users\USER\Desktop\OOP_HW01_Template_NET2010\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>C:\Users\USER\Desktop\OOP_HW01_Template_NET2010\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+         paintingSystemApp_HandleEvents.cpp
+     1>C:\Users\USER\Desktop\OOP_HW01_Template_NET2010\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>C:\Users\USER\Desktop\OOP_HW01_Template_NET2010\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+         texture.cpp
+     1>C:\Users\USER\Desktop\OOP_HW01_Template_NET2010\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>C:\Users\USER\Desktop\OOP_HW01_Template_NET2010\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+         textureManager.cpp
+     1>C:\Users\USER\Desktop\OOP_HW01_Template_NET2010\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>C:\Users\USER\Desktop\OOP_HW01_Template_NET2010\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+         textureManager_read.cpp
+     1>C:\Users\USER\Desktop\OOP_HW01_Template_NET2010\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>C:\Users\USER\Desktop\OOP_HW01_Template_NET2010\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(C:\Users\USER\Desktop\OOP_HW01_Template_NET2010\Release\SimpleOpenGLFramework.exe) 與 Linker 的 OutputFile 屬性值 (C:\Users\USER\Desktop\OOP_HW01_Template_NET2010\bin\Release\SimpleOpenGLFramework.exe) 不相符。這可能會導致您的專案建置不正確。若要改正這種情況，請確認 $(OutDir)、$(TargetName) 和 $(TargetExt) 屬性值必須與 %(Link.OutputFile) 中指定的值相符。
+       Link:
+         d:\新增資料夾\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\bin\Release\SimpleOpenGLFramework.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:.\Irvine /LIBPATH:.\lib /LIBPATH:.\lib\IL freeglut.lib opengl32.lib glew32.lib glew32s.lib ILUT.lib devIL.lib ILU.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\SimpleOpenGLFramework.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\USER\Desktop\OOP_HW01_Template_NET2010\Release\SimpleOpenGLFramework.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"C:\Users\USER\Desktop\OOP_HW01_Template_NET2010\Release\SimpleOpenGLFramework.lib" /MACHINE:X86 Release\basic_app.obj
+         Release\main.obj
+         Release\mySystem_MonteCarlo.obj
+         Release\mySystem_QuadraticFunction.obj
+         Release\mySystem_StudentRecordManager.obj
+         Release\mySystemApp.obj
+         Release\mySystemApp_draw.obj
+         Release\mySystemApp_HandleEvents.obj
+         Release\camera.obj
+         Release\opengl_stuff.obj
+         Release\painter_draw.obj
+         Release\openGLapp.obj
+         Release\openGLapp.events.obj
+         Release\openGLapp_draw.obj
+         Release\openGLapp_init.obj
+         Release\openGLapp_update.obj
+         Release\basic_tools.obj
+         Release\grid2D.obj
+         Release\provider.obj
+         Release\vector3d.obj
+         Release\fileReader.obj
+         Release\imageReader.obj
+         Release\BG_grid2D.obj
+         Release\boardGame.obj
+         Release\painter.obj
+         Release\boardGameApp.obj
+         Release\freeCanvas2D.obj
+         Release\lattice_manager.obj
+         Release\paintingSystem.obj
+         Release\paintingSystemApp.obj
+         Release\paintingSystemApp_draw.obj
+         Release\paintingSystemApp_HandleEvents.obj
+         Release\texture.obj
+         Release\textureManager.obj
+         Release\textureManager_read.obj
+     1>mySystemApp.obj : error LNK2001: 無法解析的外部符號 "public: __thiscall CUBIC_FUNCTION::CUBIC_FUNCTION(void)" (??0CUBIC_FUNCTION@@QAE@XZ)
+     1>mySystemApp_draw.obj : error LNK2001: 無法解析的外部符號 "public: double __thiscall CUBIC_FUNCTION::getValue(double)const " (?getValue@CUBIC_FUNCTION@@QBENN@Z)
+     1>mySystemApp_draw.obj : error LNK2001: 無法解析的外部符號 "public: int __thiscall CUBIC_FUNCTION::getNumOfSamples(void)const " (?getNumOfSamples@CUBIC_FUNCTION@@QBEHXZ)
+     1>mySystemApp_draw.obj : error LNK2001: 無法解析的外部符號 "public: void __thiscall CUBIC_FUNCTION::getRangeOfX(double &,double &)const " (?getRangeOfX@CUBIC_FUNCTION@@QBEXAAN0@Z)
+     1>mySystemApp_HandleEvents.obj : error LNK2001: 無法解析的外部符號 "public: void __thiscall CUBIC_FUNCTION::askForInput(void)" (?askForInput@CUBIC_FUNCTION@@QAEXXZ)
+     1>.\bin\Release\SimpleOpenGLFramework.exe : fatal error LNK1120: 5 個無法解析的外部符號
+     1>專案 "C:\Users\USER\Desktop\OOP_HW01_Template_NET2010\asm.vcxproj" (build 目標) 建置完成 -- 失敗。
+
+建置失敗。
+
+經過時間 00:00:14.32

@@ -1,0 +1,25 @@
+﻿Build started 2016/5/26 下午 10:53:50.
+     1>Project "D:\Users\yench\Desktop\New folder\OOP_Midterm2_2\OOP_Midterm2_2\OOP_Midterm2_2.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Ticket_System.cpp
+         Ticket_System.cpp
+     1>Ticket_System.cpp(174): warning C4101: 'g' : unreferenced local variable
+     1>d:\users\yench\desktop\new folder\oop_midterm2_2\oop_midterm2_2\Ticket_Database.h(54): warning C4172: returning address of local variable or temporary
+                 d:\users\yench\desktop\new folder\oop_midterm2_2\oop_midterm2_2\Ticket_Database.h(48) : while compiling class template member function 'Ticket &Ticket_Database<Ticket *>::operator [](int)'
+                 Ticket_System.cpp(252) : see reference to function template instantiation 'Ticket &Ticket_Database<Ticket *>::operator [](int)' being compiled
+                 d:\users\yench\desktop\new folder\oop_midterm2_2\oop_midterm2_2\Ticket_System.h(54) : see reference to class template instantiation 'Ticket_Database<Ticket *>' being compiled
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Users\yench\Desktop\New folder\OOP_Midterm2_2\Release\OOP_Midterm2_2.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Users\yench\Desktop\New folder\OOP_Midterm2_2\Release\OOP_Midterm2_2.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Users\yench\Desktop\New folder\OOP_Midterm2_2\Release\OOP_Midterm2_2.lib" /MACHINE:X86 /SAFESEH Release\Concert_Ticket.obj
+         Release\Hotel_Ticket.obj
+         Release\main.obj
+         Release\Ticket.obj
+         Release\Ticket_System.obj
+         Release\Train_Ticket.obj
+         Generating code
+         Finished generating code
+         OOP_Midterm2_2.vcxproj -> D:\Users\yench\Desktop\New folder\OOP_Midterm2_2\Release\OOP_Midterm2_2.exe
+     1>Done Building Project "D:\Users\yench\Desktop\New folder\OOP_Midterm2_2\OOP_Midterm2_2\OOP_Midterm2_2.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.84
